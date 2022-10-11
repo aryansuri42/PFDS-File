@@ -1,0 +1,10 @@
+fruitlist = ["apples", "oranges", "bananas", "pear", "watermelon"]
+print(f"Default list: {fruitlist}")
+fruitlist.append("kiwi")
+print(f"After appending an element list: {fruitlist}")
+fruitlist.pop(0)
+print(f"After popping an element list: {fruitlist}")
+fruitlist.remove("pear")
+print(f"After removing an element list: {fruitlist}")
+fruitlist.extend(["melon", "grapes"])
+print(f"After extending the list: {fruitlist}")
